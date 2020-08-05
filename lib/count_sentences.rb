@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-      self.split.each {|element|
+      self.split.map {|element|
 
     end
   end
