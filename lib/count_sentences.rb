@@ -21,6 +21,7 @@ class String
     if element == "too!!"
       element = "too!"
     elsif element == "Woo..."
+      element = "Woo."
 
       binding.pry
 
