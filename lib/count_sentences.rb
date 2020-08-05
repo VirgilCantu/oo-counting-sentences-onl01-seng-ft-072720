@@ -18,6 +18,7 @@ class String
     #self.split.count
     removing_array = self.split
     removing_array.each do |element|
+      
         end
       end
 
