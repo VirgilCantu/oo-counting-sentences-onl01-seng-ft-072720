@@ -17,7 +17,7 @@ class String
   def count_sentences
     self.split.count
     binding.pry
-    removig_array = self.split
+    removing_array = self.split
 
 
   end
