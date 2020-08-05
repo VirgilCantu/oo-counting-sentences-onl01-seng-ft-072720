@@ -25,7 +25,7 @@ class String
       #element = "Woo."
       #removing_array.join(" ")
 
-      end
+      
     end
   end
 
