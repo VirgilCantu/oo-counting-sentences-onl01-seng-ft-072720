@@ -15,8 +15,9 @@ class String
   end
 
   def count_sentences
-      self.split.map {|element| 
-
+      self.split.map do |element|
+        if element.end_with?("")
+      end
     end
   end
 end
