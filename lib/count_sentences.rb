@@ -19,13 +19,13 @@ class String
     removing_array = self.split
     removing_array.each do |element|
       binding.pry
-    #if element == "too!!"
+    if element == "too!!"
       #element = "too!"
-  #  elsif element == "Woo..."
+    elsif element == "Woo..."
       #element = "Woo."
       #removing_array.join(" ")
 
-      
+
     end
   end
 
