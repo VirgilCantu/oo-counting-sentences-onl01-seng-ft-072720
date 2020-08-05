@@ -15,14 +15,6 @@ class String
   end
 
   def count_sentences
-      self.split.map do |element|
-        if element.end_with?("!!")
-          element = "too!"
-        if element.end_with?("...")
-          element = "Woo."
-          binding.pry
 
-      end
-    end
   end
 end
