@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split.count
+    #self.split.count
     removing_array = self.split
     removing_array.each do |element|
     if element == "too!!"
