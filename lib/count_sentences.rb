@@ -20,7 +20,7 @@ class String
     removing_array.each do |element|
       binding.pry
     if element == "too!!"
-      #element = "too!"
+        element = "too!"
     elsif element == "Woo..."
       #element = "Woo."
       #removing_array.join(" ")
