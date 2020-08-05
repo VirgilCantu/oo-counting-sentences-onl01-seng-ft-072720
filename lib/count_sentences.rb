@@ -19,9 +19,7 @@ class String
     self.each_with_index do |x|
     binding.pry
 
-
-end
-
+    end
   end
 
 end
