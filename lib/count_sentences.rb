@@ -22,7 +22,7 @@ class String
       element = "too!"
     elsif element == "Woo..."
       element = "Woo."
-      removing_array.join
+      removing_array.join(" ")
 
       binding.pry
 
