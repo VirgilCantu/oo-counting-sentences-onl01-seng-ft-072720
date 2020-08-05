@@ -20,6 +20,8 @@ class String
     removing_array.each do |element|
     if element == "too!!"
 
+    elsif element == "Woo..."  
+
       binding.pry
 
 
