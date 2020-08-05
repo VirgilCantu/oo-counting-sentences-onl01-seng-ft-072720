@@ -16,7 +16,7 @@ class String
 
   def count_sentence
     self.end_with(".", "!", "?")
-    binding
+    binding.pry
   end
 
 end
