@@ -22,8 +22,8 @@ class String
     if element == "too!!"
         element = "too!"
     elsif element == "Woo..."
-      #element = "Woo."
-      #removing_array.join(" ")
+        element = "Woo."
+      removing_array.join(" ")
 
 
     end
