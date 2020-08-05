@@ -18,7 +18,7 @@ class String
     self.split.count
     binding.pry
     removing_array = self.split
-    removing_array.each 
+    removing_array.each do |element|
 
 
   end
