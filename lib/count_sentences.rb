@@ -17,7 +17,7 @@ class String
   def count_sentences
     #self.split.count
     removing_array = self.split
-    removing_array.each_with_index do |element, i|
+    removing_array.each do |element|
     if element == "too!!"
         element1 = "too!"
     elsif element == "Woo..."
