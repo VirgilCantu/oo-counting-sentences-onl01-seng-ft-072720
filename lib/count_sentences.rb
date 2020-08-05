@@ -19,6 +19,7 @@ class String
     binding.pry
     removing_array = self.split
     removing_array.each do |element|
+      
 
 
   end
