@@ -17,7 +17,7 @@ class String
   def count_sentences
       self.split.map do |element|
         if element.end_with?("!!")
-          element - "!"
+          element
           binding.pry
 
       end
