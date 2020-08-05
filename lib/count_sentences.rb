@@ -18,7 +18,8 @@ class String
       self.split.map do |element|
         if element.end_with?("!!")
           element = "too!"
-        elsif element.end_with?("..")
+        elsif element.end_with?("...")
+          element = "Woo."
 
       end
     end
