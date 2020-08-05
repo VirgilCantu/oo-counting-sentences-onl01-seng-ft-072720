@@ -16,10 +16,12 @@ class String
 
   def count_sentences
     self.split.count
-    binding.pry
     removing_array = self.split
     removing_array.each do |element|
       element.delete_if?("!","...")
+      binding.pry
+
+      
 
 
   end
