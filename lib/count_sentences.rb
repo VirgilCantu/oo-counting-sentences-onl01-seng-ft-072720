@@ -14,12 +14,8 @@ class String
     self.end_with?("!")
   end
 
-  def count_sentences
-    #self.split.count
-    removing_array = self.split
-    removing_array.each do |element|
-      
-        end
-      end
+  def count_sentence
+    self.end_with
+  end
 
 end
