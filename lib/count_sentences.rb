@@ -18,12 +18,13 @@ class String
     #self.split.count
     removing_array = self.split
     removing_array.each_with_index do |element, i|
-      binding.pry
     if element == "too!!"
         element1 = "too!"
     elsif element == "Woo..."
         element2 = "Woo."
       removing_array.join(" ")
+      binding.pry
+
 
 
     end
