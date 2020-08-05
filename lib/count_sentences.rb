@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-     if self.end_with("!!", "...")
+     if self.end_with?("!!", "...")
        binding.pry
 
     end
