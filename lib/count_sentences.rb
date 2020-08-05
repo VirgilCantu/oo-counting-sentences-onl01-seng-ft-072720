@@ -21,6 +21,7 @@ class String
         if element.end_with?("...")
           element = "Woo."
 binding.pry
+        end
       end
     end
   end
