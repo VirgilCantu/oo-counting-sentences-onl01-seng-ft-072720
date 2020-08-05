@@ -25,7 +25,7 @@ class String
       removing_array.join(" ")
       binding.pry
 
-
+        end
       end
     end
   end
