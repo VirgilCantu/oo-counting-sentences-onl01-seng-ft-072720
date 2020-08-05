@@ -19,7 +19,7 @@ class String
     binding.pry
     if self.include?(".", "?", "!", "...")
 
-
+end
 
   end
 
