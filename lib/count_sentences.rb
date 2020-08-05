@@ -15,8 +15,7 @@ class String
   end
 
   def count_sentences
-      self.split
-     if self.end_with?("!!", "...")
+      self.split.each {|element|
 
     end
   end
