@@ -18,7 +18,7 @@ class String
     self.split.count
     removing_array = self.split
     removing_array.each do |element|
-      element.delete_if?("!","...")
+    if element
       binding.pry
 
 
