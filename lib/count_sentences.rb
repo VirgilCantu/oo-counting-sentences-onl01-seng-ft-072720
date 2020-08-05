@@ -21,7 +21,7 @@ class String
       element.delete_if?("!","...")
       binding.pry
 
-      
+
 
 
   end
