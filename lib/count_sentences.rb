@@ -18,7 +18,7 @@ class String
     self.split.count
     removing_array = self.split
     removing_array.each do |element|
-    if element
+    if element == 
       binding.pry
 
 
