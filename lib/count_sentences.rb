@@ -19,6 +19,7 @@ class String
     removing_array = self.split
     removing_array.each do |element|
     if element == "too!!" || "Woo..."
+      
       binding.pry
 
 
