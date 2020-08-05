@@ -20,7 +20,7 @@ class String
           element = "too!"
         elsif element.end_with?("...")
           element = "Woo."
-
+binding.pry
       end
     end
   end
