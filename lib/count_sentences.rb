@@ -20,9 +20,9 @@ class String
     removing_array.each_with_index do |element, i|
       binding.pry
     if element == "too!!"
-        element = "too!"
+        element1 = "too!"
     elsif element == "Woo..."
-        element = "Woo."
+        element2 = "Woo."
       removing_array.join(" ")
 
 
