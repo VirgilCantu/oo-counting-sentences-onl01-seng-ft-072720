@@ -18,15 +18,7 @@ class String
     #self.split.count
     removing_array = self.split
     removing_array.each do |element|
-    if element == "too!!"
-        element1 = "too!"
-    if element == "Woo..."
-        element2 = "Woo."
-      binding.pry
-
         end
       end
-    end
-  end
 
 end
